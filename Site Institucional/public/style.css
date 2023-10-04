@@ -47,6 +47,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 470px;
+
 }
 .banner .container p{
 font-size: 36px;
@@ -71,7 +72,7 @@ width: 280px;
     width: 280px;
     height: 450px;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
 }
@@ -107,7 +108,7 @@ width: 280px;
     width: 80%;
     justify-content: space-around;
     flex-direction: column;
-    /* background-color:cyan; */
+    
 }
 .formulario span{
     font-size: 15px;
@@ -122,7 +123,7 @@ width: 280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50                          %;
+    width: 50                         
      
 }
 .login .container{
@@ -142,3 +143,61 @@ width: 280px;
     height: 30px;
     align-self: center;
 }
+
+.banner #container{
+    justify-content: center;
+    align-items:baseline;
+    height: 893px;
+
+
+}
+.card_cadastro{
+    background-color: #e5e5e5;
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+    color:palevioletred;
+    margin: 50px;
+
+}
+#button{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 50px;
+    border-radius: 5px;
+    font-weight: 450;
+    font-size: 16px;
+    color: white;
+    background-color:deeppink;
+    width: 130px;
+    height: 40px;
+    align-self: center;
+}
+.formulario_cadastro input{
+    border: 2px solid cyan;
+    text-align: center;
+    border-radius: 10px;
+    height:25px
+    ;
+}
+.formulario_cadastro {
+    display: flex;
+    height: 300px;
+    width: 60%;
+    justify-content: space-around;
+    flex-direction: column;
+   
+    
+}
+.formulario_cadastro span{
+    font-size: 15px;
+    font-weight: 800;
+    display: flex;
+}
+
+
+
+
